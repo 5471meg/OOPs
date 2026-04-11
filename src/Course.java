@@ -13,9 +13,9 @@ public class Course {
         c.name="java full stack";
         System.out.println("after object create");
        // c.learn(c);
-        Course c2=new Course();
-        c2.name="Devops";
-        c.learn(c2);
+        Course c3=new Course();
+        c3.name="Devops";
+        c.learn(c3);
     }
     //here we are passing course obj in method
     public void learn(Course c){
