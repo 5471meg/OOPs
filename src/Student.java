@@ -20,10 +20,14 @@ public class Student {
         Student s2=new Student("Ayush",12);
         s2.studentDetails();
        s1.studentDetails();
+       s2.hello(s2);
     }
 
     void studentDetails()
     {
         System.out.println("name " + name +" age "+age);
+    }
+    void hello(Student s2){
+        System.out.println("hello"+s2.name );
     }
 }
