@@ -14,9 +14,9 @@ public class CoursePara {
 
     public static void main(String[] args){
        // System.out.println("before object creation");
-        CoursePara c1 = new CoursePara("java",4);
-        CoursePara c2 = new CoursePara("Devops",2);
-        CoursePara c3 = new CoursePara("DSA",6);
+        CoursePara c1 = new CoursePara("java",5);
+        CoursePara c2 = new CoursePara("Devops",4);
+        CoursePara c3 = new CoursePara("DSA",2);
         System.out.println(c1.name);
         System.out.println(c1.duration);
         System.out.println(c2.name);
