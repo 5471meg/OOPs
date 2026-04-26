@@ -13,7 +13,7 @@ public class Course {
         System.out.println("before object create");
         Course c=new Course();
         c.name="java full stack";
-        System.out.println("after object create");
+        System.out.println("after object creation");
        // c.learn(c);
         Course c3=new Course();
         c3.name="DSA";
