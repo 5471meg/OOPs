@@ -19,7 +19,7 @@ public class Student {
         Student s1=new Student();
        // s1.studentDetails();
 
-        Student s2=new Student("Ayush",12);
+        Student s2=new Student("Shivam",12);
         s2.studentDetails();
        s1.studentDetails();
        s2.hello(s2);
