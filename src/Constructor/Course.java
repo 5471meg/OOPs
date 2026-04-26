@@ -16,7 +16,7 @@ public class Course {
         System.out.println("after object create");
        // c.learn(c);
         Course c3=new Course();
-        c3.name="Devops";
+        c3.name="DSA";
         c.learn(c3);
     }
     //here we are passing course obj in method
