@@ -1,3 +1,5 @@
+package Constructor;
+
 public class Course {
     String name;
     int duration;
