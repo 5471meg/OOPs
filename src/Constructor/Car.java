@@ -9,7 +9,7 @@ public class Car {
     public static void  main(String[] args){
         Car car1=new Car();
         //we need to set speed value
-        car1.speed=100;
+        car1.speed=105;
         car1.run();
     }
     public void run(){
